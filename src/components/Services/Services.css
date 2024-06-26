@@ -1,0 +1,42 @@
+/* Card.css */
+.services {
+  width: 280px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #badfe2;
+  overflow: hidden;
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.services:hover {
+  transform: scale(1.1);
+}
+
+.services-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.services-content,
+.services-title,
+.services-desc {
+  background-color: #badfe2;
+}
+
+.services-content {
+  padding: 20px;
+}
+
+.services-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.services-desc {
+  color: #676767;
+  font-size: 14px;
+  margin: 0;
+}
